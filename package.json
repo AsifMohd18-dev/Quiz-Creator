@@ -1,0 +1,19 @@
+{
+  "name": "quiz-creator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "vercel": "^54.17.3",
+    "vite": "^8.1.5"
+  }
+}

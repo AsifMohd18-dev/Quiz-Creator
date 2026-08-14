@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Creator</title>
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js"></script>
+    <meta property="og:title" content="Quiz Creator">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://quiz-creator.vercel.app/">
+    <meta property="og:image" content="/images/icon.png">
+    <meta property="og:site_name" content="Quiz Creator">
+    <meta name="og:description" content="A simple and easy-to-use quiz maker. Select up to 20 questions to quiz yourself, friends or family.">
+    <meta name="keywords" content="Quiz, Test, Multiple Choice, Create, Questions">
+    <meta name="author" content="Asif Mohammed">
+    <meta name="theme-color" content="#010130">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div class="main">
+        <div class="content">
+            <div class="intro-screen screen active" id="intro-screen">
+                <h1>Welcome to Quiz Creator!</h1>
+                <h3>Quiz your students, friends or even yourself!</h3>
+                <button id="create-quiz">Create Quiz</button>
+            </div>
+
+            <div class="create-screen screen inactive" id="create-screen">
+                <div class="quiz-head">
+                    <h1>Let's Get Quizzing!</h1>
+                    <h3>Make your quiz extremely easy or incredibly challenging!</h3>
+                </div>
+                <hr>
+                <div class="quiz-body" id="body1">
+                    <h4>How many questions would you like to add to your quiz?</h4>
+                    <span class="question-selection">
+                        <button>5</button>
+                        <button>10</button>
+                        <button>15</button>
+                        <button>20</button>
+                    </span>
+                </div>
+                <div class="quiz-body inactive" id="body2">
+                    <h4>Question <span id="questionValue">0</span> of <span id="totalQuestions">0</span></h4>
+
+                    <form class="creator-con" id="creator-con">
+                        <!--Added with JS-->
+                    </form>
+                </div>
+            </div>
+
+            <div class="completed-screen screen inactive" id="completed-screen">
+                <h1>Quiz Created!</h1>
+                <h4>Make this quiz yours!</h4>
+                <form class="quiz-details active" id="quizDetailsForm">
+                    <input type="text" placeholder="Quiz Name" required id="quiz-name">
+                    <input type="text" placeholder="Made By" required id="author">
+                    <button type="button" id="submit-quiz">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="not-entered inactive" id="error-msg">
+        <h1 id="error">Please Ensure That All Fields are Filled.</h1>
+    </div>
+    <div class="watermark">
+        <a href="mailto:asif.mohammed1805.dev@gmail.com">
+            <img src="/images/Asif_Watermark.png" class="watermark-img">
+        </a>
+    </div>
+</body>
+</html>

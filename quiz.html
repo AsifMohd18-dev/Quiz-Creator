@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="quiz.js"></script>
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="icon" href="images/icon.png">
+    <meta property="og:title" content="Quiz Creator">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://quiz-creator.vercel.app/">
+    <meta property="og:image" content="/images/icon.png">
+    <meta property="og:site_name" content="Quiz Creator">
+    <meta name="og:description" content="A simple and easy-to-use quiz maker. Select up to 20 questions to quiz yourself, friends or family.">
+    <meta name="keywords" content="Quiz, Test, Multiple Choice, Create, Questions">
+    <meta name="author" content="Asif Mohammed">
+    <meta name="theme-color" content="#010130">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div class="main">
+        <div class="content">
+            <div class="intro-screen screen active" id="intro-screen">
+                <h1 id="welcome-txt">Welcome</h1>
+                <h3 id="author">Made By</h3>
+                <button type="button" id="begin">Begin</button>
+            </div>
+
+            <div class="question-screen screen inactive" id="question-screen">
+                <h1 class="quiz-name" id="quiz-name">Name</h1>
+                <span class="question-container">
+                    <h4 class="question-indicator"><span id="current-question">0</span></h4>
+                    <p class="question" id="question">Question</p>
+                </span>
+                <span class="answer-container">
+                    <button class="answer-btn" type="button"><span id="answer">Answer</span></button>
+                    <button class="answer-btn" type="button"><span id="answer">Answer</span></button>
+                    <button class="answer-btn" type="button"><span id="answer">Answer</span></button>
+                    <button class="answer-btn" type="button"><span id="answer">Answer</span></button>
+                </span>
+                <span class="questions-footer">
+                    <button type="button" id="next">Next</button>
+                </span>
+            </div>
+            <div class="completed-screen screen inactive" id="completed-screen">
+                <h1>Quiz Completed!</h1>
+                <span class="completed">
+                    <p class="score-text">Your Score: <span id="score-amt">0</span>/<span id="total-amt">0</span></p>
+                    <hr>
+                    <p class="completion-msg" id="completion-msg">Congrats!</p>
+                </span>
+                <button type="button" id="restart">Try Again</button>
+            </div>
+        </div>
+    </div>
+    <div class="watermark">
+        <a href="mailto:asif.mohammed1805.dev@gmail.com">
+            <img src="/images/Asif_Watermark.png" class="watermark-img">
+        </a>
+    </div>
+</body>
+</html>
