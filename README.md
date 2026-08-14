@@ -18,6 +18,5 @@ https://quiz-creator.vercel.app/
 <img width="914" height="432" alt="image" src="https://github.com/user-attachments/assets/7206ee56-5d35-4608-9286-d97c253d24ab" />
 <img width="831" height="920" alt="image" src="https://github.com/user-attachments/assets/3fe90d31-e485-4e3e-8824-a00b7846264a" />
 <img width="701" height="425" alt="image" src="https://github.com/user-attachments/assets/2e007a3c-b6f9-4fb8-98c8-a8fc831e1c0c" />
-
-https://github.com/user-attachments/assets/b05691bc-8bbd-49da-842b-ef374d410b64
 <img width="682" height="281" alt="image" src="https://github.com/user-attachments/assets/cdd57541-8688-4370-b158-b4506b36dd6a" />
+<video src="https://github.com/user-attachments/assets/b05691bc-8bbd-49da-842b-ef374d410b64">
